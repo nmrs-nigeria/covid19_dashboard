@@ -1,0 +1,12 @@
+org/openmrs/module/covid19/api/Covid19Service.class
+org/openmrs/module/covid19/api/dao/PatientDao.class
+org/openmrs/module/covid19/api/dao/Database.class
+org/openmrs/module/covid19/api/dao/PersonDao.class
+org/openmrs/module/covid19/Covid19Activator$1.class
+org/openmrs/module/covid19/Covid19Activator.class
+org/openmrs/module/covid19/Covid19Config.class
+org/openmrs/module/covid19/Item.class
+org/openmrs/module/covid19/Covid19Cases.class
+org/openmrs/module/covid19/api/impl/Covid19ServiceImpl.class
+org/openmrs/module/covid19/api/dao/ConnectionPool.class
+org/openmrs/module/covid19/api/dao/Covid19Dao.class

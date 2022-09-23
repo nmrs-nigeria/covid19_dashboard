@@ -1,0 +1,134 @@
+{
+  "1": {
+    "IndicatorName": "Suspected cases"
+  },
+  "2": {
+    "IndicatorName": "Lab-confirmed positive cases"
+  },
+  "3": {
+    "IndicatorName": "Lab-confirmed positive cases in Health care Worker(s)"
+  },
+  "4": {
+    "IndicatorName": "Probable cases"
+  },
+  "5": {
+    "IndicatorName": "Signal under investigation"
+  },
+  "6": {
+    "IndicatorName": "Persons screened at POEs"
+  },
+  "7": {
+    "IndicatorName": "Persons of interest under monitoring"
+  },
+  "8": {
+    "IndicatorName": "Number of confirmed cases on admission"
+  },
+  "9": {
+    "IndicatorName": "Number of confirmed cases discharged"
+  },
+  "10": {
+    "IndicatorName": "Number of deaths in confirmed cases"
+  },
+  "11": {
+    "IndicatorName": "Number of deaths in Health care workers"
+  },
+  "12": {
+    "IndicatorName": "Number of deaths in suspected cases"
+  },
+  "13": {
+    "IndicatorName": "Number of suspected cases in correctional facilities"
+  },
+  "14": {
+    "IndicatorName": "Number of confirmed cases in correctional facilities"
+  },
+  "15": {
+    "IndicatorName": "Number of suspected cases in Schools"
+  },
+  "16": {
+    "IndicatorName": "Number of confirmed cases in schools"
+  },
+  "17": {
+    "IndicatorName": "Contacts listed"
+  },
+  "18": {
+    "IndicatorName": "Contacts seen today"
+  },
+  "19": {
+    "IndicatorName": "Contacts currently under follow up"
+  },
+  "20": {
+    "IndicatorName": "Contacts symptomatic"
+  },
+  "21": {
+    "IndicatorName": "Contacts confirmed positive"
+  },
+  "22": {
+    "IndicatorName": "Contacts who completed 14 days follow up"
+  },
+  "23": {
+    "IndicatorName": "Contacts lost to follow Up"
+  },
+  "24": {
+    "IndicatorName": "Number of Initial samples collected (Initial only)"
+  },
+  "25": {
+    "IndicatorName": "Number of pending laboratory samples (initial only)"
+  },
+  "26": {
+    "IndicatorName": "Number of Negative Samples"
+  },
+  "27": {
+    "IndicatorName": "Number of specimens collected"
+  },
+  "28": {
+    "IndicatorName": "Number of specimens tested negative"
+  },
+  "29": {
+    "IndicatorName": "Number of pending laboratory samples"
+  },
+  "30": {
+    "IndicatorName": "Number of Treatment Centre in the State"
+  },
+  "31": {
+    "IndicatorName": "Total Bed Capacity in the State"
+  },
+  "32": {
+    "IndicatorName": "Total Number of ICU Beds in the states"
+  },
+  "33": {
+    "IndicatorName": "Total Number of Oxygen Plants in the State"
+  },
+  "34": {
+    "IndicatorName": "Total number of Oxygen concentrators"
+  },
+  "35": {
+    "IndicatorName": "Number of cases on Admission in the State"
+  },
+  "36": {
+    "IndicatorName": "Number of cases managed at home"
+  },
+  "37": {
+    "IndicatorName": "Number of cases discharged"
+  },
+  "38": {
+    "IndicatorName": "Number of Asymptomatic"
+  },
+  "39": {
+    "IndicatorName": "Number of Symptomatic"
+  },
+  "40": {
+    "IndicatorName": "Number of cases with co-morbidities e.g., hypertension, diabetes, asthma, immunosuppressed (cancer, HIV), sickle cell etc."
+  },
+  "39a": {
+    "IndicatorName": "Mild (M)"
+  },
+  "39b": {
+    "IndicatorName": "Moderate (MD)"
+  },
+  "39c": {
+    "IndicatorName": "Severe (S)"
+  },
+  "39d": {
+    "IndicatorName": "Critical (C)"
+  }
+}

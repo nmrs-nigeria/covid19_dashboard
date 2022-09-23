@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+    <changeSet id="org.openmrs.module.covid19-v1.0-1" author="ihvn">
+ 
+        <createTable tableName="cv19_case_inv">
+            <column name="cv19_case_id" autoIncrement="true" type="int">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="patient_id" type="int" defaultValue="0" >
+                <constraints nullable="false"/>
+            </column>
+            <column name="case_id" type="varchar(100)" defaultValue="0" >
+                <constraints nullable="false"/>
+            </column>            
+            <column name="pepfar_id" type="varchar(100)" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="gender" type="varchar(20)" defaultValue="" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="dob" type="DATETIME">
+                <constraints nullable="true"/>
+            </column>
+            <column name="hiv_diagnosis_date" type="DATETIME">
+                <constraints nullable="true"/>
+            </column>
+            <column name="art_start_date" type="DATETIME">
+                <constraints nullable="true"/>
+            </column>
+            <column name="case_status" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="case_status_date" type="DATETIME">
+                <constraints nullable="true"/>
+            </column>
+            <column name="poe_screened" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="on_admission" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="status_d_a" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="occupation" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="typ_respiratory" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="typ_base_serum" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="typ_others" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+            <column name="symp_asymp" type="int" defaultValue="0" >
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+
+        <createIndex indexName="case_id" tableName="cv19_case_inv" unique="true">
+            <column name="case_id" />
+        </createIndex>
+        <createIndex indexName="cv19_case_index" tableName="cv19_case_inv" unique="false">
+            <column name="patient_id"/>
+            <column name="art_start_date" />
+        </createIndex>
+       
+    
+    </changeSet>
+   
+    
+</databaseChangeLog>

@@ -1,0 +1,11 @@
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/Item.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/Covid19Service.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/dao/PersonDao.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/Covid19Config.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/dao/Database.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/impl/Covid19ServiceImpl.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/Covid19Activator.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/dao/PatientDao.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/dao/Covid19Dao.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/Covid19Cases.java
+/home/ihvn/openmrs/Covid19_server/watched-projects/covid19/api/src/main/java/org/openmrs/module/covid19/api/dao/ConnectionPool.java

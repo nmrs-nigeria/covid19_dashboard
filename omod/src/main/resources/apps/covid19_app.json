@@ -1,0 +1,17 @@
+[
+    {
+        "id": "${project.parent.artifactId}.covid19App",
+        "description": " ",
+        "order": 0,
+        "extensions": [
+            {
+                "id": "covid19.homepageLink",
+                "extensionPointId": "org.openmrs.referenceapplication.homepageLink",
+                "type": "link",
+                "label": "COVID-19",
+                "url": "covid19/covid19.page",
+                "icon": "icon-ambulance"
+            }
+        ]
+    }
+] 
